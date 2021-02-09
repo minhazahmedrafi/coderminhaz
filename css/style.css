@@ -1255,7 +1255,7 @@ h4,
 }
 
 .filters {
-    text-align: center
+    text-align: center;
 }
 
 .filters ul {
@@ -1269,7 +1269,7 @@ h4,
     padding: 20px;
     -webkit-transition: .3s all ease;
     -o-transition: .3s all ease;
-    transition: .3s all ease
+    transition: .3s all ease;
 }
 
 .filters ul li:hover {
@@ -1315,6 +1315,10 @@ h4,
 @media(max-width:991.98px) {
     .section-heading h2 {
         font-size: 2rem
+    }
+
+    .filters ul li {
+        padding: 0 5px 0px;
     }
 }
 
